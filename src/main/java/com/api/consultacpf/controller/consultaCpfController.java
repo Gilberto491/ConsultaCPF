@@ -30,7 +30,7 @@ public class consultaCpfController {
             String retorno = "Invalid CPF";
             resposta.put("Response", retorno);
             logger.error(retorno);
-            return new ResponseEntity<>(resposta, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(resposta, HttpStatus.BAD_REQUEST);
         }
 
         String retorno = "valid CPF";
