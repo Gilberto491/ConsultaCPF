@@ -11,7 +11,6 @@ Esta API permite verificar se um CPF informado é válido ou não.
 - **Java 17**
 - **Spring Boot**
 - **Swagger**
-- **Ferramentas:** Postman, IntelliJ IDEA
 
 ## Documentação da API
 
@@ -22,4 +21,4 @@ A documentação completa da API pode ser acessada [aqui](https://consultacpf-pr
 ### Validar CPF
 
 - **URL:** `https://consultacpf-production.up.railway.app/api/validate/{cpf}`
-- - `{cpf}`: O CPF que deseja validar.
+  - `{cpf}`: O CPF que deseja validar.
