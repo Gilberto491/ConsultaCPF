@@ -14,11 +14,11 @@ Esta API permite verificar se um CPF informado é válido ou não.
 
 ## Documentação da API
 
-A documentação completa da API pode ser acessada [aqui](https://consultacpf-tbc9.onrender.com/swagger-ui/index.html).
+A documentação completa da API pode ser acessada [aqui](http://ec2-54-158-255-166.compute-1.amazonaws.com:8080/swagger-ui/index.html).
 
 ## Endpoints
 
 ### Validar CPF
 
-- **URL:** `https://consultacpf-tbc9.onrender.com/api/validate/{cpf}`
+- **URL:** `http://ec2-54-158-255-166.compute-1.amazonaws.com:8080/api/validate/{cpf}`
   - `{cpf}`: O CPF que deseja validar.
