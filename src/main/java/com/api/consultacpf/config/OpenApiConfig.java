@@ -12,7 +12,7 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("API de Consulta de CPF")
+                        .title("API de Validação de CPF")
                         .version("1.0")
                         .description("API para consultar se determinado CPF é válido ou não \n"));
     }
