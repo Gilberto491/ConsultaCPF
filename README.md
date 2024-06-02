@@ -1,4 +1,4 @@
-# API de Consulta de CPF
+# API de Validação de CPF
 
 Esta API permite verificar se um CPF informado é válido ou não.
 
